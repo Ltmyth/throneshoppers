@@ -1,0 +1,232 @@
+.right{
+	float:right;
+	margin-right:10%;
+}
+.full{
+	width:100%;
+}
+.left{
+	float:left;
+	text-align:left;
+}
+.center{
+	text-align:center;
+}
+
+.btm{
+	border-bottom:2px solid;
+}
+
+
+
+.dot {
+  height: 10%;
+  width: 10%;
+  border-radius: 100%;
+  text-align:center;
+  display: inline-block;
+  background:white;
+  color:black;
+}
+
+i{
+	padding:1%;
+}
+
+/*img{
+	width:100%;
+}*/
+
+#top{background:blue;height:100px;width:100%;margin-right:0px;
+	margin-left:0px;padding-right:0px;padding-left:0px;
+}
+#sach_btn{background-color:transparent;border:0;}
+
+#search_bar{
+	height:auto;width:100px;
+	text-align:left;
+	background-color:transparent;
+	border:0;color:white;
+	font-size:16px;
+	padding-top: 10px;
+}
+
+#sach_form{
+	margin-left:30%;
+	height:50px;border:1;
+	border-radius:50px;
+	background-color:#6a89cc;
+	width:250px;
+	text-align:center;
+}
+
+#nav_table{
+	border:0;
+	width:100%;
+	color:white;
+	margin-left:50px;
+}
+
+#login_btn{
+	float:right;
+}
+
+.blue{
+	background:blue;
+	color:white;
+}
+
+.blu{
+	color:#3498db;
+}
+.foot{
+	font-size:100%;
+}
+#description{
+	margin-top:10%;
+	text-align:left;
+	float:left;
+	margin-left:5%;
+	padding-bottom:5%;
+}
+
+#address_div{
+	margin:40% 15% 40% 15%;
+	border-radius:20px;
+	height:200px;
+	background-color:white;
+}
+
+#howitworks_div{
+	padding-top:15%;
+	width:100%;
+	padding-right:0px;
+
+}
+
+#howitworks_table{
+	width:100%;
+	text-align:left;
+	margin-right:50px;
+	padding-right:0px;
+}
+
+.tp{
+	background:url(../imgs/top.png);
+	background-size:100% 100%;
+}
+
+
+big{
+	color:blue;
+}
+.container{
+	background:#f5f6fa;
+}
+
+#first_div{
+	background:#f5f6fa;
+}
+body{
+	overflow-x:hidden;
+	overflow-y:none;
+	background:#f1f2f6;
+}
+
+footer{
+	height:5%;
+	width:100%;
+	position:bottom;
+	padding:0% 0% 3% 5%;
+	overflow-x:hidden;
+	overflow-y:none;
+}
+
+img{
+	border-radius:5%;
+}
+
+@media 
+only screen and (max-width: 760px),
+(min-device-width: 768px) 
+and (max-device-width: 1024px)  {
+
+	#top{
+		height:40%;
+	}
+
+	#sach_form{
+		height:50%;
+		width:100%;
+		margin-left:1px;
+		margin-right:2px;
+		float:left;
+		padding:10px;
+	}
+
+
+	#nav_table{
+		margin-left:5%;
+		text-align:left;
+		border:none;
+		padding-bottom:5%;
+		padding-top:0%;
+		height:50%;
+	}
+
+	#search_bar{
+		height:10%;
+		width:60%;
+		text-align:center;
+		font-size:10px;
+	}
+
+
+	/* Force table to not be like tables anymore */
+	table, thead, tbody, th, td, tr { 
+		display: block; 
+		margin-left:5%;
+	}
+	
+	/* Hide table headers (but not display: none;, for accessibility) */
+	thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	
+	
+	td { 
+		/* Behave  like a "row" */
+		border: none;
+		position: relative;
+		padding-left: 50%; 
+		padding-top:5%;
+		padding-bottom:5%;
+	}
+	
+	td:before { 
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+	}
+	
+	/*
+	Label the data
+	*/
+	/*td:nth-of-type(1):before { content: "First Name"; }
+	td:nth-of-type(2):before { content: "Last Name"; }
+	td:nth-of-type(3):before { content: "Job Title"; }
+	td:nth-of-type(4):before { content: "Favorite Color"; }
+	td:nth-of-type(5):before { content: "Wars of Trek?"; }
+	td:nth-of-type(6):before { content: "Secret Alias"; }
+	td:nth-of-type(7):before { content: "Date of Birth"; }
+	td:nth-of-type(8):before { content: "Dream Vacation City"; }
+	td:nth-of-type(9):before { content: "GPA"; }
+	td:nth-of-type(10):before { content: "Arbitrary Data"; }*/
+}
