@@ -6,6 +6,7 @@
 		<link rel="stylesheet" type="text/css" href="../includes/ts.css">
 		<link rel="stylesheet" type="text/css" href="../includes/bootstrap/dist/css/bootstrap.css">
 	</head>
+
 	<nav id='top'>
 				<br>
 				<table id="nav_table">
@@ -38,5 +39,4 @@
 				</table>			
 			</nav>
 	<body>
-		<div class="container-fluid">
 			

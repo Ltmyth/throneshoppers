@@ -1,4 +1,4 @@
-		<?php include('../includes/head.html'); ?>
+		<?php include('../includes/head.php'); ?>
 		<div id="first_div" class="container">
 			<div style="padding-top:5%;" class="row tp">
 				<div class="col-md ">
@@ -27,7 +27,7 @@
 					</a>
 				</div>
 			</div>
-		<div class="container tp">
+		<div >
 			<div id="description" class=" row">
 				<div class="left col-md ">
 					<h1>
@@ -49,7 +49,7 @@
 					</button>
 				</div>
 				<div class="col-sm-4 ">
-					<img style="width:200%;margin-right:5%;" src="../imgs/plane.png">
+					<img style="width:150%;margin-right:5%;" src="../imgs/plane.png">
 				</div>				
 			</div>
 		</div>
@@ -350,4 +350,4 @@
 				</div>
 			</div>
 		</div>
-	<?php include('../includes/foot.html') ?>
+	<?php include('../includes/foot.php') ?>
